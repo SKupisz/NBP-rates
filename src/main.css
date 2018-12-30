@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+.header{
+  width: 100%;
+  font-size: 2.3em;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+}
+.main-header{
+  box-shadow: 2px 2px #111 inset;
+  /*Background pattern from: subltepatterns.com*/
+  background: url("img/dark-grey-terrazzo.png");
+  height: 67px;
+}
+.content{
+  width: 100%;
+}
+.rates-header{
+  color: black;
+  /*Background pattern from: subltepatterns.com*/
+  background: url("img/pipes.png");
+  box-shadow: inset 0px 3px 3px;
+  font-family: Verdana;
+}
+.rates,.currents{
+  width: 48%;
+  box-shadow: inset 3px 3px 10px;
+  margin-top: 10px;
+  border: 2px solid #111;
+  display: inline-block;
+  margin-left: 1%;
+  height: 535px;
+}
+.rates-row{
+  width: 100%;
+  background: #eee;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: Arial;
+}
+.description{
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+}
+.curr,.code,.rate{
+  width: 32%;
+  height: inherit;
+  /*Background pattern from: subltepatterns.com*/
+  background: url("img/connectwork.png");
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+.currents{
+  /*Background pattern from: subltepatterns.com*/
+  background: url("img/pipes.png");
+  margin-left: 51%;
+  position: absolute; top: 67px; left: 0px;
+  font-size: 1.4em;
+  font-family: Verdana;
+}
+.currents-title{
+  font-weight: bold;
+}
+.gold{
+  list-style: url("img/gold.png");
+}
+#gold-canvas{
+  width: 90%;
+  /*Background pattern from: subltepatterns.com*/
+  background: url("img/pipes.png");
+  margin-top: 50px;
+  margin-left: 5%;
+  border: 3px solid #111;
+  height: 200px;
+}
