@@ -9,10 +9,16 @@ include 'src/NBPdata/nbpApiDownload.php';
     <link rel = "stylesheet" type="text/css" href = "src/main.css"/>
   </head>
   <body>
-    <header class = "header main-header">
-      Exchange rates from NBP
+    <header class = "header">
+      <section class = "main-header"></section>
+      <section class = "header-desc">Exchange rates from NBP</section>
     </header>
     <main class = "content">
+      <section class = "background-rect"></section>
+      <section class = "background-rect second-rect"></section>
+      <section class = "background-rect third-rect"></section>
+      <section class = "background-rect fourth-rect"></section>
+      <section class = "background-rect fifth-rect"></section>
       <section class = "rates">
         <header class = "header rates-header">
           Rates from C table
